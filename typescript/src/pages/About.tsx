@@ -51,7 +51,7 @@ const About = () => {
       </button>
       </div>
      
-      <section className='flex flex-wrap gap-7 my-6'>
+      <section className='flex flex-wrap gap-7 my-6 max-md:flex-col items-center justify-center'>
 
         {user?.map((item:iUser,i:number)=>(
             <main className='flex items-center bg-black text-white p-5 w-100'  key={i}>

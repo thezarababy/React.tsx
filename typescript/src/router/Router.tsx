@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Services from '../pages/Services'
 import About from '../pages/About'
 
+
  export const mainRoute = createBrowserRouter([
   {
     element: <HomeLayout />,
@@ -20,6 +21,8 @@ import About from '../pages/About'
       {
         path: "/services",
         element: <Services />,
+      },
+      {
       },
     ],
   },
