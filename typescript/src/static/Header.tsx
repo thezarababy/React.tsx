@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import Sidebar from './Sidebar'
@@ -16,7 +16,7 @@ const Header = () => {
           <NavLink to='/services' >Services</NavLink>
       </div>
       
-      <section className=' hidden max-md:block  max-md: h-20 max-md:flex justify-end items-center pr-5'>
+      <section className=' hidden   max-md: h-20 max-md:flex justify-end items-center pr-5'>
         {toggle ? (
           <RxCross1 size={35}  onClick={handleToggle} />
         ) :(
